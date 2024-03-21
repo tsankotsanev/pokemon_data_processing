@@ -1,8 +1,15 @@
 import json
 import sqlite3
+import os
 
 transformed_data_source = "transformed_data.json"
 database_name = "pokemon.db"
+
+
+if not os.path.exists(transformed_data_source):
+    raise FileNotFoundError(
+        f"'{transformed_data_source}' not found. Run 'data_transformation.py' to generate it"
+    )
 
 
 def load_data_from_json(filename):
