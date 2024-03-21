@@ -13,7 +13,7 @@ git clone https://github.com/tsankotsanev/pokemon_data_processing.git
 2. **Navigate to the Repository:**
 
 ```
-cd poke_data_processing
+cd pokemon_data_processing
 ```
 
 3. **Create and activate Python Virtual Environment**:
