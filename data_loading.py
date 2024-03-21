@@ -41,7 +41,7 @@ def load_data_into_sqlite(data, db_filename):
 
         conn.commit()
         print(
-            f"Data loaded into {database_name} SQLite database successfully!"
+            f"Data loaded into '{database_name}' SQLite database successfully!"
         )
     except Exception as e:
         print("Error:", str(e))
