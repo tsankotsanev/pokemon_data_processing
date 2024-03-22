@@ -1,6 +1,6 @@
 # Pokemon Data Processing
 
-This repository contains scripts for extracting, transforming, loading, and processing Pokemon data. Follow the instructions below to set up the SQLite database, install dependencies, and run each script.
+This repository contains scripts for extracting, transforming, loading, and processing Pokemon data from the [PokéAPI](https://pokeapi.co/). Follow the instructions below to set up the SQLite database, install dependencies, and run each script.
 
 ## Setup
 
