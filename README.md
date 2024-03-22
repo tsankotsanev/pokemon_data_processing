@@ -10,13 +10,15 @@ This repository contains scripts for extracting, transforming, loading, and proc
 git clone https://github.com/tsankotsanev/pokemon_data_processing.git
 ```
 
-2. **Navigate to the Repository:**
+2. **Navigate to the project directory:**
 
 ```
 cd pokemon_data_processing
 ```
 
 3. **Create and activate Python Virtual Environment**:
+
+Make sure you have `python 3.11.x` installed
 
 ```
 python -m venv venv
@@ -78,6 +80,6 @@ python advanced_data_processing.py
 
 ## Visualisation
 
-**[Pokemon Histogram](https://lookerstudio.google.com/reporting/5a8e517d-ead4-4f1b-a84a-e14ed0c06b09/page/XImtD)** showing all BMI of the pokemons in ascending order
+**[Pokemon Histogram](https://lookerstudio.google.com/reporting/5a8e517d-ead4-4f1b-a84a-e14ed0c06b09/page/XImtD)** presenting all BMI of the pokemons in ascending order
 
-**[Pokemon Scatter Plot](https://lookerstudio.google.com/reporting/1ba9e2cf-2fc8-415a-b0fc-16bc579eddd2)** showing the relationship between height and weight
+**[Pokemon Scatter Plot](https://lookerstudio.google.com/reporting/1ba9e2cf-2fc8-415a-b0fc-16bc579eddd2)** presenting the relationship between height and weight
