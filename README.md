@@ -66,7 +66,7 @@ This script loads the transformed Pokemon data into an SQLite database named `po
 python data_loading.py
 ```
 
-### 4. Advanced Data Processing
+### 4. `advanced_data_processing.py`
 
 This script exports the data from the SQLite database to a CSV file and processes it to find the average BMI, as well as the Pokemon with the highest and lowest BMI and prints it in the terminal.
 
